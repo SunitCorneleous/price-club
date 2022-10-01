@@ -1,11 +1,10 @@
 import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-4xl font-bold text-orange-600 bg-slate-300 py-4">
-        This is a h1 tag
-      </h1>
+      <NavBar></NavBar>
     </div>
   );
 }
