@@ -13,7 +13,7 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="py-4 bg-purple-200">
+    <nav className="py-4 bg-purple-300">
       <div className="md:w-11/12 flex justify-between  mx-auto">
         <h1 className="font-bold text-4xl px-3">LOGO</h1>
         <div
@@ -25,7 +25,7 @@ const NavBar = () => {
 
         {/* links */}
         <ul
-          className={`w-full md:z-[100] z-[-1] md:w-2/4 bg-purple-200 md:static md:flex justify-center absolute ease-in duration-500 ${
+          className={`w-full md:z-[100]  md:w-2/4 bg-purple-300 md:static md:flex justify-center absolute ease-in duration-500 ${
             open ? "top-14" : "top-[-280px]"
           }`}
         >
